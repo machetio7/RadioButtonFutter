@@ -14,6 +14,7 @@ class HomePage extends StatelessWidget {
               appBar: AppBar(
                 backgroundColor: Colors.black,
                 title: Text('Radio Button'),
+                centerTitle: true,
               ),
               body: Container(
                 padding: const EdgeInsets.only(left: 8.0, right: 8.0),
